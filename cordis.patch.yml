@@ -1,0 +1,5 @@
+# dsh-esc bundle patch: mount the plugin as one row.
+# client 半边由 package.json 的 dsh.client.platform: "web" 声明自动装配。
+- insert:
+    - id: dsh-esc
+      name: dsh-esc
