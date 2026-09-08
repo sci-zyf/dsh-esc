@@ -24,10 +24,10 @@ DSH Web 插件：生成过程中按 **Esc** 立即中断当前回答，效果与
 - 已全局安装 dsh CLI：`npm install -g @deepseek-ai/dsh`
 - 已存在 web profile：`dsh profile list` 中应包含 `web`
 
-从 GitHub 仓库安装（仓库地址创建后填入）：
+从 GitHub 仓库安装：
 
 ```bash
-dsh plugin --profile web add <your-github-repo-url>
+dsh plugin --profile web add https://github.com/sci-zyf/dsh-esc
 ```
 
 安装后重启 DSH（或 profile `patchReload: live` 时自动生效）。卸载：

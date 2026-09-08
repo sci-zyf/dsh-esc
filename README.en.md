@@ -24,10 +24,10 @@ Prerequisites:
 - dsh CLI installed globally: `npm install -g @deepseek-ai/dsh`
 - A web profile exists: `dsh profile list` should include `web`
 
-Install from a GitHub repository (fill in the repo URL once created):
+Install from the GitHub repository:
 
 ```bash
-dsh plugin --profile web add <your-github-repo-url>
+dsh plugin --profile web add https://github.com/sci-zyf/dsh-esc
 ```
 
 Restart DSH after install (or it applies live with profile `patchReload: live`). Uninstall:
